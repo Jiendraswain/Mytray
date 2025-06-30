@@ -8,7 +8,7 @@ import Layout from "./Pages/Layout";
 const App = () => {
   const routes = createBrowserRouter([
     {
-      path: "/",
+      path: "/", 
       element: <Layout />,
       children: [
         { path: "", element: <Home /> },
